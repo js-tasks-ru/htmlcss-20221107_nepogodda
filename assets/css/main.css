@@ -1,10 +1,17 @@
 @import '../fonts/fonts.css';
 
+@import '../../components/page/page.css';
+@import '../../components/container/container.css';
+@import '../../components/header/header.css';
+@import '../../components/preview/preview.css';
+@import '../../components/footer/footer.css';
+
 :root {
   --white: #ffffff;
   --black: #212429;
   --pink: #f784ad;
   --purple: #7048e8;
+
   --dark-purple: #5028c6;
   --blue: #4263eb;
   --dark-blue: #2342c0;
@@ -14,6 +21,7 @@
   --grey-2: #dde2e5;
   --grey-3: #acb5bd;
   --grey-4: #495057;
+  --grey-5: #f9fafc;
 
   --error: var(--red);
   --success: var(--blue);
@@ -25,7 +33,6 @@
   --secondary-hover: var(--dark-purple);
 
   --altenate: var(--grey);
-}
 
 * {
   font-family: 'Roboto', sans-serif;
