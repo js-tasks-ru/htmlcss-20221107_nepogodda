@@ -11,6 +11,7 @@
   --black: #212429;
   --pink: #f784ad;
   --purple: #7048e8;
+
   --dark-purple: #5028c6;
   --blue: #4263eb;
   --dark-blue: #2342c0;
@@ -26,10 +27,7 @@
   --success: var(--blue);
 
   --primary: var(--blue);
-  --secondary: var(--purple);
-  --primary: var(--blue);
   --primary-hover: var(--dark-blue);
-
   --secondary: var(--purple);
   --secondary-hover: var(--dark-purple);
 
