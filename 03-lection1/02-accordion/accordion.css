@@ -1,12 +1,12 @@
 /* Стилизация аккордеона */
-.accordion {
+.accordion__item {
   padding: 24px 32px 32px;
   border: 1px solid var(--grey-3);
   border-radius: 8px;
   margin-bottom: 8px;
 }
 
-.accordion:last-child {
+.accordion__item:last-child {
   margin-bottom: 0;
 }
 
