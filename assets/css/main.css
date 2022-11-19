@@ -5,13 +5,15 @@
 @import '../../components/header/header.css';
 @import '../../components/preview/preview.css';
 @import '../../components/footer/footer.css';
+@import '../../components/card/card.css';
+@import '../../03-lection1/01-button/button.css';
+@import '../../components/component-wrapper/component-wrapper.css';
 
 :root {
   --white: #ffffff;
   --black: #212429;
   --pink: #f784ad;
   --purple: #7048e8;
-
   --dark-purple: #5028c6;
   --blue: #4263eb;
   --dark-blue: #2342c0;

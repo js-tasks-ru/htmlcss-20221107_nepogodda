@@ -1,0 +1,13 @@
+.component-wrapper {
+  background: var(--white);
+  border: 1px solid var(--grey-3);
+  border-radius: 8px;
+}
+
+.component-wrapper_skeleton {
+  padding: 24px 40px 24px 24px;
+}
+
+.component-wrapper_histogram {
+  padding: 16px 24px;
+}
