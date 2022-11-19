@@ -36,6 +36,6 @@
   --altenate: var(--grey);
 }
 
-* {
+body {
   font-family: 'Roboto', sans-serif;
 }

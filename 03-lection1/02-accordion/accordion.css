@@ -1,4 +1,12 @@
 /* Стилизация аккордеона */
+.accordion {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
 .accordion__item {
   padding: 24px 32px 32px;
   border: 1px solid var(--grey-3);
@@ -11,11 +19,6 @@
 }
 
 .accordion__summary {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
   color: var(--black);
   cursor: pointer;
   /* для скрытия стрелочки */
@@ -29,11 +32,6 @@
 }
 
 .accordion__text {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
   color: var(--grey-4);
   margin: 0;
 }
