@@ -1,0 +1,50 @@
+.modal {
+  background: rgba(196, 196, 196, 0.5);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.modal__window {
+  max-width: 428px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: var(--white);
+  border-radius: 8px;
+  padding: 30px 40px 33px;
+}
+
+.modal__body {
+  /* может быть и не нужен такой класс? */
+}
+
+.modal__title {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: var(--grey-blue);
+  margin: 0 0 14px;
+}
+
+.modal__text {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--grey-4);
+  margin: 0;
+}
+
+.modal__close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  cursor: pointer;
+}
