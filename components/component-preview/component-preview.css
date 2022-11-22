@@ -1,0 +1,9 @@
+.component-preview__title {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 38px;
+  color: var(--grey-4);
+  margin: 0 0 24px;
+}

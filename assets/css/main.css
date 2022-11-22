@@ -5,7 +5,9 @@
 @import '../../components/header/header.css';
 @import '../../components/preview/preview.css';
 @import '../../components/footer/footer.css';
-
+@import '../../components/inner-page/inner-page.css';
+@import '../../components/component-preview/component-preview.css';
+@import '../../components/menu/menu.css';
 :root {
   --white: #ffffff;
   --black: #212429;
@@ -16,6 +18,7 @@
   --blue: #4263eb;
   --dark-blue: #2342c0;
   --red: #f03d3e;
+  --red-2: #d84910;
   --grey: #e5e5e5;
   --grey-1: #f8f9fa;
   --grey-2: #dde2e5;
@@ -31,7 +34,7 @@
   --secondary: var(--purple);
   --secondary-hover: var(--dark-purple);
 
-  --altenate: var(--grey);
+  --alternate: var(--grey);
 }
 
 * {

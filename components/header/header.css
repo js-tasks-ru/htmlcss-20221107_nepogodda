@@ -11,3 +11,9 @@
   line-height: 64px;
   color: var(--black);
 }
+
+.header_inner {
+  padding: 0;
+  height: 82px;
+  background-color: var(--white);
+}
