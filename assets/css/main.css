@@ -17,6 +17,7 @@
   --dark-purple: #5028c6;
   --blue: #4263eb;
   --dark-blue: #2342c0;
+  --grey-blue: #334d6e;
   --red: #f03d3e;
   --red-2: #d84910;
   --grey: #e5e5e5;
@@ -25,6 +26,7 @@
   --grey-3: #acb5bd;
   --grey-4: #495057;
   --grey-5: #f9fafc;
+  --grey-6: #90a0b7;
 
   --error: var(--red);
   --success: var(--blue);
@@ -38,5 +40,15 @@
 }
 
 * {
+  box-sizing: border-box;
+}
+
+body {
   font-family: 'Roboto', sans-serif;
+}
+
+html,
+body {
+  height: 100vh;
+  /* background: red; */
 }
