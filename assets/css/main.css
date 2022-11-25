@@ -8,6 +8,9 @@
 @import '../../components/card/card.css';
 @import '../../03-lection1/01-button/button.css';
 @import '../../components/component-wrapper/component-wrapper.css';
+@import '../../components/inner-page/inner-page.css';
+@import '../../components/menu/menu.css';
+@import '../../components/component-preview/component-preview.css';
 
 :root {
   --white: #ffffff;
@@ -17,13 +20,16 @@
   --dark-purple: #5028c6;
   --blue: #4263eb;
   --dark-blue: #2342c0;
+  --grey-blue: #334d6e;
   --red: #f03d3e;
+  --red-2: #d84910;
   --grey: #e5e5e5;
   --grey-1: #f8f9fa;
   --grey-2: #dde2e5;
   --grey-3: #acb5bd;
   --grey-4: #495057;
   --grey-5: #f9fafc;
+  --grey-6: #90a0b7;
 
   --error: var(--red);
   --success: var(--blue);
@@ -33,9 +39,19 @@
   --secondary: var(--purple);
   --secondary-hover: var(--dark-purple);
 
-  --altenate: var(--grey);
+  --alternate: var(--grey);
+}
+
+* {
+  box-sizing: border-box;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
+}
+
+html,
+body {
+  height: 100vh;
+  /* background: red; */
 }
