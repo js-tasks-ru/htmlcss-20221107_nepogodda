@@ -1,15 +1,22 @@
+.skeleton {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
 .skeleton__group-wrapper {
   display: flex;
   gap: 16px;
   width: 100%;
   align-items: center;
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 
 .skeleton__lines-group {
   width: 100%;
   display: flex;
   flex-direction: column;
+  gap: 8px;
 }
 .skeleton__circle {
   width: 64px;
@@ -21,9 +28,7 @@
 
 .skeleton__line {
   height: 20px;
-  flex: 1 0 auto;
   background: var(--grey-2);
-  margin-bottom: 8px;
 }
 
 .skeleton__line_middle {
@@ -32,8 +37,4 @@
 
 .skeleton__line_small {
   width: 40%;
-}
-
-.skeleton__line:last-child {
-  margin-bottom: 0;
 }
