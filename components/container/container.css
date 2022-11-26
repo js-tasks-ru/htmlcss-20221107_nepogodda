@@ -1,4 +1,9 @@
 .container {
   max-width: 1110px;
   margin: 0 auto;
+  padding: 0 20px;
+}
+
+.container__inner-page {
+  width: 100%;
 }

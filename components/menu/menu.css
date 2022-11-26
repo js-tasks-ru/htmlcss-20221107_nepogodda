@@ -12,17 +12,17 @@
   margin: 0 0 16px;
 }
 
-.menu > nav > ul {
+.menu__list {
   list-style-type: none;
   padding: 0;
   margin: 0 0 30px;
 }
 
-.menu > nav > ul > li {
+.menu__list-item {
   margin-bottom: 4px;
 }
 
-.menu > nav > ul > li:last-child {
+.menu__list-item:last-child {
   margin-bottom: 0;
 }
 

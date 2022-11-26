@@ -1,5 +1,4 @@
 .footer {
-  height: 200px;
   background: var(--white);
 }
 
@@ -19,13 +18,12 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  /* or 150% */
   text-align: center;
   color: var(--black);
 }
 
 .footer_inner {
-  height: 130px;
+  padding: 92px 0 56px;
   display: flex;
   justify-content: center;
   align-items: center;
