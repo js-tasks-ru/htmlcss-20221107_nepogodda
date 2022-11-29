@@ -2,7 +2,7 @@
   height: 100%;
   background: var(--grey-5);
   display: grid;
-  grid-template-rows: 0.4fr 3fr auto;
+  grid-template-rows: auto 1fr auto;
 }
 
 .inner-page__main {
