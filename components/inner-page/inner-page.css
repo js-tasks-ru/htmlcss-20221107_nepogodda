@@ -1,0 +1,21 @@
+.inner-page {
+  height: 100%;
+  background: var(--grey-5);
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.inner-page__main {
+  height: 100%;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 56px;
+  padding-top: 36px;
+}
+
+.inner-page__content {
+  background: var(--white);
+  box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
+  border-radius: 12px;
+  padding: 32px 48px;
+}
