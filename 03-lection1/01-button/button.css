@@ -9,8 +9,9 @@
   text-align: center;
   color: var(--white);
   padding: 15px 15px 14px;
-  /* width: 189px; */
   border: none;
+  outline: none;
+  display: inline-block;
   transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
   cursor: pointer;
 }
