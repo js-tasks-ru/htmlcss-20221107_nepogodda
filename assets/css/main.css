@@ -11,6 +11,8 @@
 @import '../../components/inner-page/inner-page.css';
 @import '../../components/component-preview/component-preview.css';
 @import '../../components/menu/menu.css';
+@import '../../components/svg-sprite/svg-sprite.css';
+
 :root {
   --white: #ffffff;
   --black: #212429;
