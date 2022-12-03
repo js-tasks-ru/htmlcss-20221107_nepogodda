@@ -19,3 +19,21 @@
   border-radius: 12px;
   padding: 32px 48px;
 }
+
+@media screen and (max-width: 767px) {
+  .inner-page {
+    background: var(--white);
+    min-width: 375px;
+  }
+
+  .inner-page__main {
+    display: block;
+    padding-top: 32px;
+  }
+
+  .inner-page__content {
+    padding: 0;
+    box-shadow: none;
+    border-radius: 0%;
+  }
+}

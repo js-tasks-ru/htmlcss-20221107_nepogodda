@@ -10,9 +10,35 @@
   font-size: 50px;
   line-height: 64px;
   color: var(--black);
+  margin: 0;
 }
 
 .header_inner {
   padding: 24px 0;
   background-color: var(--white);
+  /* text-align: center; */
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    padding: 17px 0 69px;
+  }
+
+  .header_main {
+    border-bottom: 1px solid var(--grey-2);
+  }
+
+  .header__logo-wrapper {
+    margin-bottom: 49px;
+  }
+
+  .header__title {
+    font-size: 28px;
+    line-height: 38px;
+  }
+
+  .header_inner {
+    padding: 17px 0;
+    background: var(--grey-5);
+  }
 }
