@@ -7,14 +7,12 @@
   <body>
     <div class="container">
       <div class="srcset">
-        <picture>
-          <source srcset="./public/forest_768.jpg" media="(min-width: 768px)" />
-          <img
-            class="srcset__image"
-            src="./public/forest_400.jpg"
-            alt="картинка с изображением леса"
-          />
-        </picture>
+        <img
+          class="srcset__image"
+          alt="картинка с изображением леса"
+          src="./public/forest_400.jpg"
+          srcset="./public/forest_400.jpg 1x, ./public/forest_768.jpg 2x"
+        />
       </div>
     </div>
   </body>
