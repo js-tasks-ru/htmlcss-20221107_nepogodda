@@ -1,5 +1,4 @@
 @import '../fonts/fonts.css';
-
 @import '../../components/page/page.css';
 @import '../../components/container/container.css';
 @import '../../components/header/header.css';
@@ -11,6 +10,8 @@
 @import '../../components/inner-page/inner-page.css';
 @import '../../components/component-preview/component-preview.css';
 @import '../../components/menu/menu.css';
+@import '../../components/tabs/tabs.css';
+
 @import '../../components/svg-sprite/svg-sprite.css';
 
 :root {

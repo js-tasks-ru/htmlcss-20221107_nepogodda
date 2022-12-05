@@ -1,11 +1,43 @@
 <!DOCTYPE html>
 <!-- Страница чекбокса -->
 <html lang="ru">
-    <head>
-        <link rel="stylesheet" href="../../assets/css/main.css">
-        <link rel="stylesheet" href="./checkbox.css">
-    </head>
-    <body>
-
-    </body>
+  <head>
+    <link rel="stylesheet" href="../../assets/css/main.css" />
+    <link rel="stylesheet" href="./checkbox.css" />
+  </head>
+  <body>
+    <label class="checkbox">
+      <input class="checkbox__input" type="checkbox" />
+      <span class="checkbox__state">
+        <span class="checkbox__control">
+          <svg class="svg-icon svg-icon_checkmark">
+            <use href="../../assets/images/icons.svg#checkmark"></use>
+          </svg>
+        </span>
+        <span class="checkbox__label">Default</span>
+      </span>
+    </label>
+    <label class="checkbox">
+      <input class="checkbox__input" type="checkbox" checked />
+      <span class="checkbox__state">
+        <span class="checkbox__control">
+          <svg class="svg-icon svg-icon_checkmark">
+            <use href="../../assets/images/icons.svg#checkmark"></use>
+          </svg>
+        </span>
+        <span class="checkbox__label">Checked</span>
+      </span>
+    </label>
+    <label class="checkbox">
+      <input class="checkbox__input" type="checkbox" disabled />
+      <span class="checkbox__state">
+        <span class="checkbox__control">
+          <svg class="svg-icon svg-icon_checkmark">
+            <use href="../../assets/images/icons.svg#checkmark"></use>
+          </svg>
+        </span>
+        <span class="checkbox__label">Disabled</span>
+      </span>
+    </label>
+  </body>
 </html>
