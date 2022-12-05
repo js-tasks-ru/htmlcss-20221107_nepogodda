@@ -19,6 +19,9 @@
 }
 
 .accordion__summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   color: var(--black);
   cursor: pointer;
   /* для скрытия стрелочки */
@@ -38,4 +41,8 @@
 
 .accordion__item[open] .accordion__text {
   margin-top: 16px;
+}
+
+.accordion__item[open] .accordion__trigger-icon {
+  transform: rotate(180deg);
 }

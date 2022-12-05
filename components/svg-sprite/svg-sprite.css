@@ -1,0 +1,14 @@
+.svg-icon {
+  width: 1em;
+  height: 1em;
+  color: var(--grey-4);
+}
+
+.svg-icon_tooltip {
+  width: 24px;
+  height: 24px;
+}
+
+.svg-icon:hover {
+  color: var(--black);
+}
