@@ -7,3 +7,9 @@
 .page__main {
   flex-grow: 1;
 }
+
+@media screen and (max-width: 767px) {
+  .page {
+    min-width: 375px;
+  }
+}

@@ -14,6 +14,10 @@
 
 @import '../../components/svg-sprite/svg-sprite.css';
 
+@import '../../components/logo/logo.css';
+@import '../../04-lection2/01-histogram/histogram.css';
+@import '../../05-lection3/03-calendar/calendar.css';
+
 :root {
   --white: #ffffff;
   --black: #212429;
