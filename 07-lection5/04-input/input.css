@@ -1,0 +1,68 @@
+.form-control {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.form-control__label {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--grey-3);
+}
+
+/* как сделать чтобы была высота 56 как в макете */
+.form-control__input {
+  outline: none;
+  background: var(--white);
+  border: 1px solid var(--grey-2);
+  border-radius: 8px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: var(--grey-2);
+  padding: 17px 24px 13px;
+}
+
+.form-control__input::placeholder {
+  color: var(--grey-2);
+}
+
+.form-control__input:focus {
+  border: 1px solid var(--blue);
+  box-shadow: 0px 1px 1px rgba(51, 154, 240, 0.1);
+  color: var(--grey-4);
+}
+
+.form-control__input-wrapper {
+  position: relative;
+}
+
+.form-control__icon {
+  width: 24px;
+  height: 24px;
+
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 18px;
+}
+
+.form-control__icon_success {
+  color: var(--success);
+}
+
+.form-control__icon_error {
+  color: var(--error);
+}
+
+.form-control__input_error:focus {
+  border: 1px solid var(--error);
+  box-shadow: 0px 1px 1px rgba(240, 61, 62, 0.1);
+}
