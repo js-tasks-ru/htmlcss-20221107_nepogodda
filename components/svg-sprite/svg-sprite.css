@@ -12,8 +12,3 @@
 .svg-icon:hover {
   color: var(--black);
 }
-
-.svg-icon_checkmark,
-.svg-icon_checkmark:hover {
-  color: var(--white);
-}
