@@ -1,0 +1,14 @@
+.element-container {
+  padding-bottom: 65px;
+}
+
+.element-container__title {
+  margin: 0 0 60px;
+  text-transform: uppercase;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 1.36;
+  color: var(--grey-3);
+}

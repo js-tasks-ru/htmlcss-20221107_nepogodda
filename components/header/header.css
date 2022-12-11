@@ -1,5 +1,5 @@
 .header {
-  padding: 96px 0 77px;
+  padding: 24px 0 0;
   background: var(--white);
 }
 
@@ -11,30 +11,23 @@
   line-height: 64px;
   color: var(--black);
   margin: 0;
+  padding: 40px 0;
 }
 
 .header_inner {
   padding: 24px 0;
   background-color: var(--white);
-  /* text-align: center; */
 }
 
 @media screen and (max-width: 767px) {
   .header {
-    padding: 17px 0 69px;
-  }
-
-  .header_main {
-    border-bottom: 1px solid var(--grey-2);
-  }
-
-  .header__logo-wrapper {
-    margin-bottom: 49px;
+    padding: 17px 0 0;
   }
 
   .header__title {
     font-size: 28px;
     line-height: 38px;
+    padding: 48px 0 32px;
   }
 
   .header_inner {

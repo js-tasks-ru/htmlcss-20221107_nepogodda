@@ -1,0 +1,7 @@
+.grid-4-columns {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: repeat(2, auto);
+  grid-auto-flow: column;
+  gap: 2rem;
+}
