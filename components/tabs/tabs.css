@@ -32,9 +32,6 @@
 .tabs__scroller-item_active {
   padding-bottom: 8px;
   border-bottom: 5px solid var(--black);
-}
-
-.tabs__scroller-item_active {
   color: var(--black);
 }
 
