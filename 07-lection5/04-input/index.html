@@ -1,11 +1,37 @@
 <!DOCTYPE html>
 <!-- Страница с полем ввода -->
 <html lang="ru">
-    <head>
-        <link rel="stylesheet" href="../../assets/css/main.css">
-        <link rel="stylesheet" href="./input.css">
-    </head>
-    <body>
 
-    </body>
+<head>
+  <link rel="stylesheet" href="../../assets/css/main.css" />
+  <link rel="stylesheet" href="./input.css" />
+</head>
+
+<body>
+  <div class="form-control">
+    <label class="form-control__label" for="default">Default</label>
+    <div class="form-control__input-wrapper">
+      <input id="default" class="form-control__input" type="text" placeholder="Placeholder">
+    </div>
+  </div>
+  <div class="form-control">
+    <label class="form-control__label" for="success">Success</label>
+    <div class="form-control__input-wrapper">
+      <input id="success" class="form-control__input" type="text" placeholder="Placeholder">
+      <svg class="form-control__icon form-control__icon_success">
+        <use href="../../assets/images/icons.svg#check-circle"></use>
+      </svg>
+    </div>
+  </div>
+  <div class="form-control">
+    <label class="form-control__label" for="error">Error</label>
+    <div class="form-control__input-wrapper">
+      <input id="error" class="form-control__input form-control__input_error" type="text" placeholder="Placeholder">
+      <svg class="form-control__icon form-control__icon_error">
+        <use href="../../assets/images/icons.svg#alert-triangle"></use>
+      </svg>
+    </div>
+  </div>
+</body>
+
 </html>
