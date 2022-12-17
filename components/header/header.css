@@ -28,8 +28,11 @@
     border-bottom: 1px solid var(--grey-2);
   }
 
-  .header__logo-wrapper {
+  .header__wrapper {
     margin-bottom: 49px;
+    display: flex;
+    justify-content: center;
+    position: relative;
   }
 
   .header__title {
