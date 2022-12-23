@@ -1,9 +1,10 @@
 .preview {
   background: var(--grey-5);
+  border-top: 1px solid var(--grey-2);
 }
 
 .preview__cards {
-  padding: 68px 0 204px;
+  padding: 68px 0 65px;
   display: flex;
   gap: 30px;
   flex-wrap: wrap;
@@ -12,5 +13,6 @@
 @media screen and (max-width: 767px) {
   .preview__cards {
     padding: 24px 0 61px;
+    justify-content: center;
   }
 }

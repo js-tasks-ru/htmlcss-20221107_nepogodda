@@ -1,6 +1,6 @@
 .logo {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 8px;
 }
 .logo__item {
@@ -18,4 +18,10 @@
   height: 0;
   border-bottom: 30px solid var(--black);
   border-right: 30px solid var(--white);
+}
+
+@media screen and (max-width: 767px) {
+  .logo {
+    justify-content: center;
+  }
 }

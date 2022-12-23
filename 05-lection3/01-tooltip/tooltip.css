@@ -3,6 +3,10 @@
   position: relative;
 }
 
+.tooltip_force-preview .tooltip__bubble {
+  display: block;
+}
+
 .tooltip__trigger {
   width: 24px;
   height: 24px;

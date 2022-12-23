@@ -21,6 +21,11 @@
   pointer-events: none;
 }
 
+.button_text {
+  color: var(--black);
+  background-color: transparent;
+}
+
 .button_primary {
   background-color: var(--primary);
 }

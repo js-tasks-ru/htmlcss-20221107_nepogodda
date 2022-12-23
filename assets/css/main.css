@@ -11,12 +11,22 @@
 @import '../../components/component-preview/component-preview.css';
 @import '../../components/menu/menu.css';
 @import '../../components/tabs/tabs.css';
-
 @import '../../components/svg-sprite/svg-sprite.css';
-
 @import '../../components/logo/logo.css';
+@import '../../components/grid-4-columns/grid-4-columns.css';
+@import '../../components/grid-3-columns/grid-3-columns.css';
+@import '../../components/element-container/element-container.css';
+
 @import '../../04-lection2/01-histogram/histogram.css';
 @import '../../05-lection3/03-calendar/calendar.css';
+@import '../../05-lection3/01-tooltip/tooltip.css';
+@import '../../06-lection4/01-avatar/avatar.css';
+@import '../../07-lection5/02-radio/radio.css';
+@import '../../07-lection5/01-checkbox/checkbox.css';
+@import '../../07-lection5/03-toggler/toggler.css';
+@import '../../04-lection2/02-skeleton/skeleton.css';
+@import '../../05-lection3/02-modal/modal.css';
+@import '../../03-lection1/02-accordion/accordion.css';
 
 :root {
   --white: #ffffff;
